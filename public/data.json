@@ -3,7 +3,7 @@
       "id": 1,
       "name": "Netflix",
       "thumbnail": "https://i.postimg.cc/8CNjD0Vy/download-4.png",
-      "banner": "https://example.com/images/netflix-banner.jpg",
+      "banner": "https://i.postimg.cc/8CNjD0Vy/download-4.png",
       "frequency": "monthly",
       "price": 15.99,
       "description": "Stream unlimited movies, TV shows, and documentaries with Netflix, the world's leading entertainment service.",
@@ -19,7 +19,9 @@
         "Access to Netflix Originals"
       ],
       "ratings": 4.7,
-      "number_of_reviews": 2100
+      "number_of_reviews": 2100,
+      "link":"https://www.netflix.com/bd/"
+
     },
     {
       "id": 2,
@@ -41,7 +43,8 @@
         "Early Access to Lightning Deals"
       ],
       "ratings": 4.6,
-      "number_of_reviews": 1850
+      "number_of_reviews": 1850,
+      "link":"https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root"
     },
     {
       "id": 3,
@@ -63,7 +66,8 @@
         "Exclusive Merchandise Discounts"
       ],
       "ratings": 4.5,
-      "number_of_reviews": 920
+      "number_of_reviews": 920,
+      "link":"https://www.crunchyroll.com/"
     },
     {
       "id": 4,
@@ -85,7 +89,8 @@
         "Available Across Apple Devices"
       ],
       "ratings": 4.4,
-      "number_of_reviews": 730
+      "number_of_reviews": 730,
+      "link":"https://tv.apple.com/"
     },
     {
       "id": 5,
@@ -107,7 +112,8 @@
         "Exclusive Artist Releases"
       ],
       "ratings": 4.8,
-      "number_of_reviews": 3000
+      "number_of_reviews": 3000,
+      "link":"https://open.spotify.com/"
     },
     {
       "id": 6,
@@ -129,7 +135,8 @@
         "GroupWatch with Friends"
       ],
       "ratings": 4.6,
-      "number_of_reviews": 1600
+      "number_of_reviews": 1600,
+      "link":"https://www.disney.com/?intoverride=true"
     }
   ]
   
