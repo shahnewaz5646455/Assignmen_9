@@ -1,0 +1,135 @@
+[
+    {
+      "id": 1,
+      "name": "Netflix",
+      "thumbnail": "https://i.postimg.cc/8CNjD0Vy/download-4.png",
+      "banner": "https://example.com/images/netflix-banner.jpg",
+      "frequency": "monthly",
+      "price": 15.99,
+      "description": "Stream unlimited movies, TV shows, and documentaries with Netflix, the world's leading entertainment service.",
+      "tech_category": "Streaming",
+      "features": [
+        "HD and 4K Content",
+        "Multi-device Support",
+        "Personalized Recommendations"
+      ],
+      "subscription_benefits": [
+        "Ad-free Streaming",
+        "Downloadable Content",
+        "Access to Netflix Originals"
+      ],
+      "ratings": 4.7,
+      "number_of_reviews": 2100
+    },
+    {
+      "id": 2,
+      "name": "Amazon Prime",
+      "thumbnail": "https://i.postimg.cc/gJnwBtRn/download.png",
+      "banner": "https://example.com/images/amazon-prime-banner.jpg",
+      "frequency": "yearly",
+      "price": 139.00,
+      "description": "Enjoy fast delivery, streaming video & music, exclusive shopping deals, and more with Amazon Prime.",
+      "tech_category": "Streaming & Shopping",
+      "features": [
+        "Prime Video & Music",
+        "Free Two-Day Shipping",
+        "Exclusive Deals"
+      ],
+      "subscription_benefits": [
+        "Ad-free Music and Shows",
+        "Amazon Originals",
+        "Early Access to Lightning Deals"
+      ],
+      "ratings": 4.6,
+      "number_of_reviews": 1850
+    },
+    {
+      "id": 3,
+      "name": "Crunchyroll",
+      "thumbnail": "https://i.postimg.cc/P5yPfnQC/download-5.png",
+      "banner": "https://example.com/images/crunchyroll-banner.jpg",
+      "frequency": "monthly",
+      "price": 7.99,
+      "description": "Stream the world's largest anime library with Crunchyroll — the ultimate destination for anime lovers.",
+      "tech_category": "Anime Streaming",
+      "features": [
+        "New Episodes 1 Hour After Japan",
+        "Huge Anime Catalog",
+        "Simulcasts & Subtitles"
+      ],
+      "subscription_benefits": [
+        "Ad-Free Viewing",
+        "Offline Viewing",
+        "Exclusive Merchandise Discounts"
+      ],
+      "ratings": 4.5,
+      "number_of_reviews": 920
+    },
+    {
+      "id": 4,
+      "name": "Apple TV+",
+      "thumbnail": "https://i.postimg.cc/zvxcXBvd/download.png",
+      "banner": "https://example.com/images/apple-tv-banner.jpg",
+      "frequency": "monthly",
+      "price": 9.99,
+      "description": "Apple TV+ offers Apple Original shows and movies from the world’s most creative storytellers.",
+      "tech_category": "Streaming",
+      "features": [
+        "Apple Originals",
+        "4K HDR Streaming",
+        "Family Sharing Support"
+      ],
+      "subscription_benefits": [
+        "Ad-Free Content",
+        "Download to Watch Offline",
+        "Available Across Apple Devices"
+      ],
+      "ratings": 4.4,
+      "number_of_reviews": 730
+    },
+    {
+      "id": 5,
+      "name": "Spotify",
+      "thumbnail": "https://i.postimg.cc/GpN39L8m/download-6.png",
+      "banner": "https://example.com/images/spotify-banner.jpg",
+      "frequency": "monthly",
+      "price": 10.99,
+      "description": "Listen to millions of songs and podcasts on-demand with Spotify Premium.",
+      "tech_category": "Music Streaming",
+      "features": [
+        "Unlimited Skips",
+        "Offline Listening",
+        "High Quality Audio"
+      ],
+      "subscription_benefits": [
+        "Ad-Free Music",
+        "Custom Playlists",
+        "Exclusive Artist Releases"
+      ],
+      "ratings": 4.8,
+      "number_of_reviews": 3000
+    },
+    {
+      "id": 6,
+      "name": "Disney+",
+      "thumbnail": "https://i.postimg.cc/KjhZr05X/download-2.png",
+      "banner": "https://example.com/images/disneyplus-banner.jpg",
+      "frequency": "monthly",
+      "price": 7.99,
+      "description": "Disney+ offers streaming of Disney, Pixar, Marvel, Star Wars, and National Geographic content in one place.",
+      "tech_category": "Streaming",
+      "features": [
+        "Disney Originals",
+        "Family-Friendly Content",
+        "Multiple Profiles"
+      ],
+      "subscription_benefits": [
+        "Unlimited Streaming",
+        "Downloadable Shows",
+        "GroupWatch with Friends"
+      ],
+      "ratings": 4.6,
+      "number_of_reviews": 1600
+    }
+  ]
+  
