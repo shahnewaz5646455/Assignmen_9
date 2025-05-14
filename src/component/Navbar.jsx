@@ -46,12 +46,15 @@ export default function Navbar() {
               tabIndex={0}
               className="menu menu-sm space-x-2 dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
-              <Link to="/" className="font-semibold text-lg">
-                Home
-              </Link>
-              <Link to="/profile" className="font-semibold text-lg">
-                My Profile
-              </Link>
+             <Link to="/" className="font-semibold text-xl">
+              Home
+            </Link>
+            <Link to="/profile" className="font-semibold text-xl">
+              My Profile
+            </Link>
+            <Link to="/cart" className="font-semibold text-xl">
+              Cart
+            </Link>
             </ul>
           </div>
           <img className="w-[120px]" src="https://i.postimg.cc/DfqQH0qm/Screenshot-2025-05-14-203418.png" alt="" />

@@ -27,7 +27,7 @@ const ReviewPage = () => {
   };
 
   return (
-    <div className="flex flex-col   w-[40%] items-center p-0 space-y-6">
+    <div className="flex flex-col w-[85%]  md:w-[40%] items-center p-0 space-y-6">
 
       {/* Review Form */}
       <form

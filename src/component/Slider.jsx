@@ -14,9 +14,9 @@ const ImageSlider = ({ images, headings }) => {
   };
 
   return (
-    <div className="flex   mt-3 mb-3 items-center space-x-8">
-      <div className="w-full ">
-        <div className="w-[80%] h-[500px]  mx-auto max-w-4xl">
+    <div className="flex flex-col lg:flex-row mt-3 mb-3 items-center lg:space-x-8 overflow-hidden">
+      <div className=" w-full lg:w-[80%] mx-auto">
+        <div className="w-full h-[300px] sm:h-[400px] lg:h-[500px] mx-auto max-w-4xl">
           <Swiper
             modules={[Navigation, Pagination, Autoplay]}
             spaceBetween={20}
@@ -33,16 +33,15 @@ const ImageSlider = ({ images, headings }) => {
                 <img
                   src={imgUrl}
                   alt={`Slide ${index + 1}`}
-                  className="w-full h-[500px]  object-cover"
+                  className="w-full h-[300px] sm:h-[400px] lg:h-[500px] object-cover"
                 />
               </SwiperSlide>
             ))}
           </Swiper>
         </div>
       </div>
-      {/* <div className=" w-[50%] ">
-        <h1 className="text-8xl  font-bold">{currentHeading}</h1>
-      </div> */}
+      {/* Heading Section */}
+      
     </div>
   );
 };

@@ -39,7 +39,7 @@ export default function Home() {
         <div className="flex p-3 justify-center items-center">
 
         <ImageSlider images={images} headings={headings} />
-        <div>
+        <div className="hidden lg:block">
           <img src="https://i.postimg.cc/nhnvfBwd/Screenshot-2025-05-14-204807-removebg-preview.png" alt="" />
         </div>
         </div>
@@ -53,11 +53,11 @@ export default function Home() {
         </div>
       </section>
       <section data-aos="fade-left" className="py-8 w-[85%] mx-auto">
-      <h1 className="text-6xl text-center pb-8 font-bold">Trending</h1>
+      <h1 className="text-4xl md:text-6xl text-center pb-8 font-bold">Trending</h1>
        <Sk8Banner></Sk8Banner>
       </section>
       <section data-aos="zoom-in-up" className="py-8 w-[85%] mx-auto">
-        <h1 className="text-6xl text-center pb-8 font-bold">Our Partner</h1>
+        <h1 className="text-4xl md:text-6xl text-center pb-8 font-bold">Our Partner</h1>
         <Client></Client>
 
       </section>
