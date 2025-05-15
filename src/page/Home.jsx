@@ -52,7 +52,7 @@ export default function Home() {
           ))}
         </div>
       </section>
-      <section data-aos="flip-up" className="py-8 w-[85%] mx-auto">
+      <section data-aos="" className="py-8 w-[85%] mx-auto">
       <h1 className="text-4xl md:text-6xl text-center pb-8 font-bold">Trending</h1>
        <Sk8Banner></Sk8Banner>
       </section>
