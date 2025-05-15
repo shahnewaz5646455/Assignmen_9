@@ -19,15 +19,23 @@ export default function Profile() {
           <figure>
             <img
               className="h-[200px] sm:h-[300px] object-top w-full object-cover"
-              src={user?.photoURL}
+              src={
+                user?.photoURL || "https://i.ibb.co/2kR5zq0/default-user.png"
+              }
               alt="User_photo"
+              onError={(e) => {
+                e.target.onerror = null;
+                e.target.src = "https://i.postimg.cc/59R2xHqS/Screenshot-2025-05-15-122223.png";
+              }}
             />
           </figure>
           <div className="card-body text-center">
             <h2 className="card-title text-lg sm:text-xl font-bold">
               {user?.displayName || "User Name"}
             </h2>
-            <p className="btn p-1 text-sm sm:text-base">{user?.email || "Email"}</p>
+            <p className="btn p-1 text-sm sm:text-base">
+              {user?.email || "Email"}
+            </p>
           </div>
         </div>
 

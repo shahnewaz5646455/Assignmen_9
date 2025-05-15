@@ -5,7 +5,7 @@ import { Authcontext } from "../provider/Authprovider";
 
 export default function Navbar() {
   const photolink =
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLlSGeo64I7x6W55DETCMNffk5TG_hHsSQiw&s";
+    "https://i.postimg.cc/W16VJtrK/undraw-developer-avatar-f6ac.png";
   const navivgate = useNavigate();
   const { user, logout } = use(Authcontext);
   // console.log(user);
