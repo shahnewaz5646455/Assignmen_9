@@ -27,12 +27,12 @@ const ReviewPage = () => {
   };
 
   return (
-    <div className="flex flex-col w-[85%]  md:w-[40%] items-center p-0 space-y-6">
+    <div className="flex flex-col w-[85%]  md:w-[40%] items-center  space-y-6">
 
       {/* Review Form */}
       <form
         onSubmit={handleSubmit}
-        className="bg-gray-600 border-t-4 border-orange-500 p-6 rounded-lg shadow-md w-full max-w-md space-y-4"
+        className="bg-gray-600   border-t-4 border-orange-500 p-6 rounded-lg shadow-md w-full max-w-md space-y-4"
       >
         <div>
           <label className="block text-sm font-semibold text-white">

@@ -1,12 +1,9 @@
 # React + Vite
+Project name: Subscribe Box
+Purpose: We canvbuyvdifferent kind of ott Platform  subscription from here.
+Live Url: https://subscribe-box-002.netlify.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ key features:
+ 1.User can login and register.
+ 2.If user is not logged in they cannot see particular section that they want to see. There is some private section.
+ 3.User can also upload their profile picture and usename.

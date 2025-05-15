@@ -46,18 +46,24 @@ export default function Navbar() {
               tabIndex={0}
               className="menu menu-sm space-x-2 dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
-             <Link to="/" className="font-semibold text-xl">
-              Home
-            </Link>
-            <Link to="/profile" className="font-semibold text-xl">
-              My Profile
-            </Link>
-            <Link to="/cart" className="font-semibold text-xl">
-              Cart
-            </Link>
+              <Link to="/" className="font-semibold text-xl">
+                Home
+              </Link>
+              <Link to="/profile" className="font-semibold text-xl">
+                My Profile
+              </Link>
+              <Link to="/cart" className="font-semibold text-xl">
+                Cart
+              </Link>
             </ul>
           </div>
-          <img className="w-[120px]" src="https://i.postimg.cc/DfqQH0qm/Screenshot-2025-05-14-203418.png" alt="" />
+          <Link to={"/"}>
+            <img
+              className="w-[70px] md:w-[120px]"
+              src="https://i.postimg.cc/DfqQH0qm/Screenshot-2025-05-14-203418.png"
+              alt=""
+            />
+          </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal space-x-5 px-1">
@@ -82,14 +88,12 @@ export default function Navbar() {
                 className="w-10 h-10 rounded-full object-cover"
                 src={user?.photoURL || photolink} // Fallback to default photo link
                 alt="User Profile"
-                
                 onError={(e) => {
                   e.target.src = photolink; // Replace with default image if the link is broken
                 }}
               />
             </div>
           )}
-
 
           {user ? (
             <Link className="btn" onClick={handleLogout}>

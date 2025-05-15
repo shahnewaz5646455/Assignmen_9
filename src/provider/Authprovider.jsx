@@ -6,7 +6,6 @@ export const Authcontext = createContext({});
 
 export default function Authprovider({ children }) {
   const [email,setEmail]=useState(null);
-  
   const [loading, setLoading] = useState(true);
   const [user, setUser] = useState(null);
   const [mycart,setMycart]=useState([]);
@@ -69,6 +68,7 @@ export default function Authprovider({ children }) {
     mycart,
     setEmail,
     email,
+    
   };
   return <Authcontext value={authInfo}>{children}</Authcontext>;
 }

@@ -11,7 +11,7 @@ export default function Details() {
   console.log(buyingData);
 
   return (
-    <div className="flex justify-center items-center md:justify-center flex-col md:flex-row  gap-2 min-h-screen pt-16 pb-8">
+    <div className="flex  justify-center  md:justify-center flex-col md:flex-row  gap-2 min-h-screen pt-16 pb-8">
       {/* Added padding to prevent overlap with navbar */}
       <CrunchyrollCard buyingData={buyingData}></CrunchyrollCard>
       <ReviewPage></ReviewPage>

@@ -25,7 +25,7 @@ const CrunchyrollCard = ({ buyingData }) => {
     buyingData;
 
   return (
-    <div className="max-w-sm w-full border-t-4 border-orange-500 bg-gray-600 text-white rounded-md shadow-lg p-6 space-y-4">
+    <div className="max-w-sm w-[80%] md:w-full border-t-4 border-orange-500 bg-gray-600  text-white rounded-md shadow-lg p-6 space-y-4">
       {/* Title */}
       <h2 className="text-lg sm:text-xl font-bold text-center uppercase">
         {name}
