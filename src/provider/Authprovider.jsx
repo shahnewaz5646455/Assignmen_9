@@ -9,7 +9,7 @@ export default function Authprovider({ children }) {
   const [loading, setLoading] = useState(true);
   const [user, setUser] = useState(null);
   const [mycart,setMycart]=useState([]);
- console.log(mycart);
+//  console.log(mycart);
   
   const googleLogin=(auth,provider)=>{
     setLoading(true);

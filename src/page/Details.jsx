@@ -5,10 +5,10 @@ import ReviewPage from "./ReviewPage";
 
 export default function Details() {
   const { id } = useParams();
-  console.log(id);
+  // console.log(id);
   const data = useLoaderData();
   const buyingData = data.find((doc) => doc.id == id);
-  console.log(buyingData);
+  // console.log(buyingData);
 
   return (
     <div className="flex  justify-center  md:justify-center flex-col md:flex-row  gap-2 min-h-screen pt-16 pb-8">

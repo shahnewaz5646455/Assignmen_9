@@ -44,14 +44,14 @@ export default function Register() {
       return; // Stop form submission
     }
 
-    console.log(name, email, password, photourl);
+    // console.log(name, email, password, photourl);
     createUsers(email, password)
       .then((result) => {
         const user = result.user;
         updateUserProfile({ displayName: name, photoURL: photourl })
           .then(() => {
             setUser({ ...user, displayName: name, photoURL: photourl });
-            console.log(user);
+            // console.log(user);
             form.reset();
             toast.success("Registration successful!");
             navigate("/");

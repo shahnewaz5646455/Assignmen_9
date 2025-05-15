@@ -3,7 +3,7 @@ import { Authcontext } from "../provider/Authprovider";
 
 export default function Cart() {
   const { mycart } = use(Authcontext);
-  console.log(mycart);
+  // console.log(mycart);
 
   return (
     <div className="min-h-screen px-4 py-6">

@@ -8,7 +8,7 @@ export default function Navbar() {
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLlSGeo64I7x6W55DETCMNffk5TG_hHsSQiw&s";
   const navivgate = useNavigate();
   const { user, logout } = use(Authcontext);
-  console.log(user);
+  // console.log(user);
   const handleLogout = () => {
     logout()
       .then(() => {

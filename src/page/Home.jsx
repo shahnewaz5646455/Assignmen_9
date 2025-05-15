@@ -9,7 +9,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 export default function Home() {
   const data = useLoaderData();
-  console.log(data);
+  // console.log(data);
   useEffect(() => {
     AOS.init({
       duration: 1000, // animation duration

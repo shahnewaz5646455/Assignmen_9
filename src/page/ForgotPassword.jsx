@@ -33,7 +33,7 @@ const ForgotPassword = () => {
     // ..
   });
   };
-console.log(email);
+// console.log(email);
   return (
     <div className="flex justify-center  h-screen">
       <form
