@@ -1,7 +1,7 @@
 import React, { use, useState } from "react";
 import { FcGoogle } from "react-icons/fc";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
-import { Link, useNavigate } from "react-router";
+import { Link, useLocation, useNavigate } from "react-router";
 import { Authcontext } from "../provider/Authprovider";
 import { ToastContainer, toast } from "react-toastify";
 import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
@@ -12,6 +12,7 @@ export default function Register() {
   const auth = getAuth(app);
   const navigate = useNavigate();
   const provider = new GoogleAuthProvider();
+  const location=useLocation();
 
   const handleGoogleLogin = () => {
     signInWithPopup(auth, provider)
@@ -77,7 +78,12 @@ export default function Register() {
           onSubmit={handleSubmit}
           className="bg-white w-full p-6 rounded-2xl shadow-md space-y-6"
         >
-          <h2 className="text-2xl sm:text-3xl font-bold text-center">Register</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold text-center">
+             {
+          location.pathname=="/register"&&"REGISTER"
+      }
+        
+          </h2>
 
           {/* Name Input */}
           <div className="space-y-2">

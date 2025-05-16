@@ -13,6 +13,7 @@ export default function Navbar() {
     logout()
       .then(() => {
         navivgate("/");
+        window.location.href = "/"
         toast.warning("You have just log out!");
       })
       .catch((error) => {

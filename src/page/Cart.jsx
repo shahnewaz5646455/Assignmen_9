@@ -1,14 +1,20 @@
 import React, { use } from "react";
 import { Authcontext } from "../provider/Authprovider";
+import { useLocation } from "react-router";
 
 export default function Cart() {
   const { mycart } = use(Authcontext);
   // console.log(mycart);
+  const location=useLocation();
+  console.log(location);
 
   return (
     <div className="min-h-screen px-4 py-6">
       <h1 className="text-2xl sm:text-3xl font-bold py-5 text-center">
-        ALL SUBSCRIPTION
+        {
+          location.pathname=="/cart"&&"My Subscription"
+      }
+        
       </h1>
       <div className="flex flex-wrap justify-center items-center gap-6">
         {mycart.length > 0 ? (
@@ -34,7 +40,7 @@ export default function Cart() {
             </div>
           ))
         ) : (
-          <div className="w-full sm:w-[250px] border-2 border-dashed rounded-lg h-[300px] flex justify-center items-center">
+          <div className="w-full sm:w-[500px] border-2 border-dashed rounded-lg h-[300px] flex justify-center items-center">
             <h1 className="text-lg sm:text-2xl text-center">The cart is empty</h1>
           </div>
         )}

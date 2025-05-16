@@ -70,7 +70,11 @@ export default function Login() {
           onSubmit={handleSubmit}
           className="bg-white w-full p-6 rounded-2xl shadow-md space-y-6"
         >
-          <h2 className="text-2xl sm:text-3xl font-bold text-center">LOGIN</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold text-center">
+            {
+              location.pathname=="/login"&&"LOGIN"
+            }
+          </h2>
 
           {/* Email Input */}
           <div className="space-y-2">
